@@ -13,7 +13,9 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.0",
-        "tcg/voyager": "^1.5"
+        "rap2hpoutre/fast-excel": "^5.1",
+        "tcg/voyager": "^1.5",
+        "yajra/laravel-datatables-buttons": "9.0"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",

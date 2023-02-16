@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,8 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+
+Route::get('export/user', [UsersController::class, 'fast_excel_user'])->name('export_user');
+Route::get('export/application', [UsersController::class, 'fast_excel_application'])->name('export_application');
+Route::get('export/multiple', [UsersController::class, 'fast_excel_multiple'])->name('export_multiple');
