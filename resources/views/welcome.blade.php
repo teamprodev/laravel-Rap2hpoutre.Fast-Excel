@@ -32,5 +32,8 @@
         <button>
             <a type="button" class="btn btn-primary" href="{{route('export_multiple')}}">Multiple Export</a>
         </button>
+        <button>
+            <a type="button" class="btn btn-primary" href="{{route('fast_excel_chunked')}}">Chunked</a>
+        </button>
     </body>
 </html>
